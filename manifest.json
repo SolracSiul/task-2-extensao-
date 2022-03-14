@@ -1,0 +1,13 @@
+{
+    "manifest_version":3,
+    "version":"0.0.1",
+    "name": "Extensão desafio 2",
+    "description" :"change color",
+    "author": "Luis Carlos Rodrigues",
+     "content_scripts":[
+        {
+            "matches": ["https://www.boticario.com.br/*"],
+            "js":["jquery.js","myscript.js"]
+        }
+    ]
+}
